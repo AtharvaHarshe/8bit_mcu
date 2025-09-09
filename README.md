@@ -38,13 +38,21 @@ Top-level module for easy integration
 Testbench for simulation and verification
 
 Project Structure
+
 8bit_CPU_Core/
+
 ├── src/
+
 │   ├── cpu_core.v     # Main CPU core implementation
+
 │   └── top.v          # Top-level wrapper module
+
 ├── tb/
+
 │   └── tb_top.v       # Testbench for simulation
+
 └── README.md
+
 
 Getting Started
 Prerequisites
@@ -110,5 +118,6 @@ Implement interrupt handling and timers
 Author
 
 Atharva Sanjeev Harshe
+
 Email: athhar2551@gmail.com
 
